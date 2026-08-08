@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Notification from "@/components/Notification";
+import Whatsapp from "@/components/Whatsapp";
 
 export const metadata: Metadata = {
   title: "HeadPhone Repair Centre",
@@ -41,6 +42,7 @@ export default function RootLayout({
             {children}
           </main>
         </div>
+        <Whatsapp />
         <Footer />
         {/* <Notification /> */}
       </body>
