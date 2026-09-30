@@ -46,11 +46,11 @@ export default function Navbar() {
                     </li>
                 </ul>
                 {/* <div className="w-12 sm:w-[50px]" /> */}
-                <div className="hidden max-tablet:block max-tablet:flex max-tablet:flex-col gap-1">
+                {/* <div className="hidden max-tablet:block max-tablet:flex max-tablet:flex-col gap-1">
                     <span className="h-1 w-7 bg-white"></span>
                     <span className="h-1 w-7 bg-white"></span>
                     <span className="h-1 w-7 bg-white"></span>
-                </div>
+                </div> */}
             </div>
         </nav>
     )
