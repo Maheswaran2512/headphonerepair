@@ -24,7 +24,7 @@ export default function Navbar() {
                         text-decoration:underline;
                     } */}
                 {/* </style> */}
-                <ul className="flex justify-center gap-3 sm:gap-4 list-none overflow-x-auto text-black max-tablet:hidden">
+                <ul className="flex justify-center gap-3 sm:gap-4 list-none overflow-x-auto text-black " {/*max-tablet:hidden*/}>
                     <li className="font-bold text-sm sm:text-base">
                         <Link href="/">HOME</Link>
                     </li>
